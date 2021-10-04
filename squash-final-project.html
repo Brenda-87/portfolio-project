@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Squash</title>
+    <style>
+      h1 {
+        padding: 30px 20px 10px 20px;
+      }
+      h2 {
+        opacity: 75%;
+        padding: 0 0 20px 0;
+      }
+      hr {
+        max-width: 400px;
+      }
+      p {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        font-size: 15px;
+        font-weight: 200;
+        max-width: 450px;
+        text-align: left;
+        line-height: 150%;
+      }
+      .content {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #082032;
+        border-radius: 10px;
+        background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+      }
+      .photo {
+        border-radius: 5px;
+      }
+      .styled-link {
+        color: white;
+      }
+      .styled-button {
+        background: white;
+        display: block;
+        margin: 0 auto;
+        padding: 20px 30px;
+        border: 1px solid black;
+        border-radius: 40px;
+        box-shadow: 8px 8px 8px 1px rgba(1, 1, 75, 0.2);
+        transition: all 150ms ease-in-out;
+      }
+      .styled-button:hover {
+        background: black;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1>Burn calories & play squash!</h1>
+      <h2><em>Indoor racquet sport</em></h2>
+      <img
+        class="photo"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/015/572/original/woman_squash.jpeg?1629464171"
+        alt="Female squash"
+        width="500"
+      />
+      <br />
+      <br />
+      <p>
+        <strong>Squash</strong> is a sport played around the world and has as
+        big a following professionally as it does in amateur ranks. The sport
+        dates back to the 19th century with variations of the game (then called
+        racquets) evolving into the modern game as we now know it. While squash
+        is currently not an Olympic sport, its pinnacle comes in the form of the
+        <a
+          class="styled-link"
+          href="https://worldsquashchamps.com/#:~:text=PSA%20World%20Squash%20Championships%20%E2%80%93%2014,2021%2C%20University%20Club%20of%20Chicago"
+          target="_bank"
+          >Squash World Championships</a
+        >
+        where the best players from around the world compete to be the ultimate
+        squash champion.
+      </p>
+      <br />
+      <button class="styled-button">👉 Book squash court</button>
+      <br />
+      <hr />
+      <br />
+      <br />
+    </div>
+    <script>
+      function bookingButton() {
+        let fullName = prompt("Full name:");
+        let email = prompt("Email:");
+        let time = prompt(
+          "How to book for today: Fill in any hour between 8 and 23."
+        );
+        if (time < 8 || time > 23) {
+          alert("No booking possible at this time");
+        } else {
+          alert("Thanks " + fullName + ", you court is booked at " + time);
+        }
+      }
+
+      let booking = document.querySelector("button");
+      booking.addEventListener("click", bookingButton);
+    </script>
+  </body>
+</html>
