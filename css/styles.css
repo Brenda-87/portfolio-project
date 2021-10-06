@@ -13,6 +13,10 @@ body {
   font-family: "Abel", sans-serif;
 }
 
+p {
+  font-size: 18px;
+}
+
 a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -25,12 +29,12 @@ a {
 
 .hero h1 {
   color: var(--secondary-color);
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .hero h2 {
   color: var(--secondary-color);
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .portfolio-button {
@@ -66,10 +70,6 @@ a {
   color: var(--primary-color);
 }
 
-.home-headings p {
-  font-size: 18px;
-}
-
 .navigation-links a {
   margin: 20px;
   margin-bottom: 70px;
@@ -96,22 +96,31 @@ a {
 
 .about-section {
   padding-top: 100px;
+  padding-bottom: 100px;
+  background: var(--background);
+}
+
+.about-section p {
+  padding-top: 20px;
+  line-height: 2;
 }
 
 .about-section h1,
 h2,
 h3,
 p {
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 
-.about-section p {
-  font-size: 18px;
+.about-section h1 {
+  font-size: 32px;
+  padding-top: 75px;
 }
 
 .certifications p {
-  font-size: 18px;
+  color: var(--text-color);
 }
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -141,7 +150,7 @@ p {
 
 .keywords {
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .portfolio {
