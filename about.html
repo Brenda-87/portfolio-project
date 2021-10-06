@@ -16,7 +16,7 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
-        <script
+    <script
       src="https://kit.fontawesome.com/5acdb9036e.js"
       crossorigin="anonymous"
     ></script>
@@ -29,14 +29,23 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <title>About front-end developer Brenda and her projects</title>
   </head>
-  <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom border-3 border-info">
+  <body class="body-about">
+    <nav
+      class="
+        navbar
+        fixed-top
+        navbar-expand-lg navbar-dark
+        bg-dark
+        border-bottom border-3 border-info
+      "
+    >
       <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img
+        <a class="navbar-brand" href="/"
+          ><img
             src="/images/shecodes_logo.png"
             alt="SheCodes logo"
             class="logo"
-        /></a></a>
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,7 +58,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a
                 class="nav-link"
@@ -70,8 +79,8 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="#contact"
-                title="Contact front-end developer Brenda via e-mail"
+                href="contact.html"
+                title="Contact information on front-end developer Brenda"
                 >CONTACT</a
               >
             </li>
@@ -79,45 +88,72 @@
         </div>
       </div>
     </nav>
-    <h1 class="about-heading">About Brenda</h1>
-    <h3>Front-end developer from Groningen, The Netherlands</h3>
-    <p class="text-center m-4">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam aperiam
-      provident tempora? Cumque adipisci, non dolorem quia, odit qui alias
-      veniam excepturi rem dolor fugit dignissimos, sed voluptatum blanditiis
-      harum.
-    </p>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <img
-            src="images/yoga.png"
-            class="img-fluid rounded shadow p-2 mb-5 border border-white"
-            alt="example of SheCodes yoga class"
-          />
-        </div>
-
-        <div class="col-sm-4">
-          <img
-            src="images/weather.png"
-            class="img-fluid rounded shadow p-2 mb-5 border border-white"
-            alt="weather-app image"
-          />
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="images/yogurt.png"
-            class="img-fluid rounded shadow p-2 mb-5 border border-white"
-            alt="image of yoghurt"
-          />
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4">
+            <img
+              src="images/under-construction.png"
+              alt="profile photo"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-sm-6 mb-5">
+            <h1 class="fw-bold about-heading">Hi, I'm Brenda Sariowan</h1>
+            <h2>Front-end developer from <br />Groningen, The Netherlands.</h2>
+            <p class="fw-bolder">
+              At college and university I majored in fine arts and in
+              communication & information sciences. I have gained specialist
+              experience and knowledge on the subject of digital printing while
+              working in the printing industry. Currently I am in the midst of
+              making a career change towards the tech industry. In order to make
+              the switch to front-end development I'm expanding my knowledge on
+              HTML, CSS and Javascript (React). Below are some of the courses
+              I've completed.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="contact">
-      <h2 class="contact-info">📮 Contact me</h2>
-      <a href="mailto:b.sariowan@gmail.com" class="email-link"
-        >b.sariowan@gmail.com</a
-      >
-    </div>
+    </section>
+    <section class="certifications">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <img
+              src="images/shecodes-basics-certificate.png"
+              class="img-fluid rounded shadow p-2 mb-5 border border-white"
+              alt="Brenda's SheCodes Basics workshop certificate of achievement"
+            />
+          </div>
+          <div class="col-sm-4 pt-5">
+            <h4 class="ps-3">SheCodes Basics</h4>
+            <p class="ps-3">
+              This workshop focused on the basics of HTML, CSS and JavaScript.
+              For me it was a quick refresher on HTML and CSS. JavaScript was
+              new, but very intriguing to me.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-sm-5">
+              <img
+                src="images/shecodes-plus-certificate.png"
+                class="img-fluid rounded shadow p-2 mb-5 border border-white"
+                alt="Brenda's SheCodes Plus workshop certificate of achievement"
+              />
+            </div>
+            <div class="col-sm-4 pt-5">
+              <h4 class="ps-3">SheCodes Plus</h4>
+              <p class="ps-3">
+                This workshop provided a more in-depth look at HTML, CSS,
+                JavaScript and responsive design. It introduced a number of
+                front-end technologies, APIs and tools for building an
+                interactive application: the Weather app.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
