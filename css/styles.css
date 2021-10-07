@@ -15,6 +15,7 @@ body {
 
 p {
   font-size: 18px;
+  color: var(--text-color);
 }
 
 a {
@@ -35,6 +36,10 @@ a {
 .hero h2 {
   color: var(--secondary-color);
   font-size: 32px;
+}
+
+.hero-heading {
+  padding-top: 200px;
 }
 
 .portfolio-button {
@@ -66,7 +71,7 @@ a {
   color: grey;
 }
 
-.home-headings {
+.headings {
   color: var(--primary-color);
 }
 
@@ -81,21 +86,6 @@ a {
 .logo {
   width: 75%;
   height: 75%;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-p.projects {
-  color: var(--text-color);
 }
 
 .about-section {
@@ -121,6 +111,9 @@ p {
   padding-top: 75px;
 }
 
+
+
+
 p.certifications {
   color: var(--text-color);
 }
@@ -137,14 +130,8 @@ p.certifications {
   text-decoration: underline;
 }
 
-.container {
-  display: flex;
-}
-
-.projects p {
-  background: white;
-  text-align: left;
-  padding: 0;
+.content {
+  b
 }
 
 .projects h2 {
@@ -159,10 +146,6 @@ p.certifications {
 
 .portfolio {
   margin-top: 30px;
-}
-
-.index-heading {
-  padding-top: 200px;
 }
 
 #portfolio {
