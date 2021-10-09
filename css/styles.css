@@ -94,6 +94,14 @@ a {
   background: var(--background);
 }
 
+h1.content-heading {
+  font-size: 30px;
+}
+
+h2.content-heading {
+  font-size: 29px;
+}
+
 h1.content-heading,
 h2.content-heading,
 p.content-heading {
@@ -101,12 +109,8 @@ p.content-heading {
 }
 
 p.content-heading {
-  line-height: 2;
+  line-height: 1.8;
   padding-top: 20px;
-}
-
-p.certifications {
-  color: var(--text-color);
 }
 
 .project-background {
@@ -139,14 +143,14 @@ p.certifications {
   margin-top: 30px;
 }
 
+.contact-me {
+  margin-top: 200px;
+}
+
 #portfolio {
   display: block;
   position: relative;
   top: -65px;
-}
-
-#contact {
-  text-align: center;
 }
 
 @media (max-width: 480px) {
