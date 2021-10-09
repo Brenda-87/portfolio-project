@@ -88,6 +88,10 @@ a {
   height: 75%;
 }
 
+a.footnote {
+  color: var(--primary-color);
+}
+
 .content-container {
   padding-top: 150px;
   padding-bottom: 170px;
@@ -108,7 +112,7 @@ p.content-heading {
   color: var(--secondary-color);
 }
 
-p.content-heading {
+p.content {
   line-height: 1.8;
   padding-top: 20px;
 }
@@ -147,7 +151,12 @@ p.content-heading {
   margin-top: 200px;
 }
 
-#portfolio {
+a.contact {
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+.contact-me #portfolio {
   display: block;
   position: relative;
   top: -65px;
