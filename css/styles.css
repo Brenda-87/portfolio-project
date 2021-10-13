@@ -28,10 +28,14 @@ a {
   min-height: 900px;
 }
 
-.hero h1,
-.hero h2 {
+h1.hero-content {
+  padding-top: 200px;
+}
+
+h1.hero-content,
+h2.hero-content {
   color: var(--secondary-color);
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .hero-heading {
@@ -53,7 +57,11 @@ a {
   transition: ease-in-out 0.2s;
 }
 
-.button-links {
+.project-list {
+  margin-top: 50px;
+}
+
+a.button-links {
   border-radius: 4px;
   padding: 13px 15px;
   text-decoration: none;
