@@ -164,7 +164,7 @@ a.contact {
   font-size: 25px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479.98px) {
   h1.hero-content,
   h2.hero-content {
     font-size: 22px;
@@ -178,6 +178,10 @@ a.contact {
   h2.headings,
   .headings {
     text-align: center;
+  }
+
+  .content-container {
+    padding: 50px;
   }
 
   .profile-photo {
@@ -202,49 +206,55 @@ a.contact {
     margin-right: 20px;
   }
 
+  h4.content-heading {
+    font-size: 18px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  p.content {
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: center;
+  }
+
   .certificates {
-    margin: 0px;
+    max-width: 75%;
+    display: block;
+    margin: auto;
+  }
+
+  footer {
+    font-size: 13px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.98px) {
   .hero {
     min-height: 300px;
   }
 
-  h1.hero-heading,
+  h1.hero-content,
   .keywords {
     font-size: 22px;
   }
 
-  h1.hero-heading {
-    padding-top: 50px;
+  h1.hero-content {
+    padding-top: 100px;
   }
 
-  h2.hero-heading {
+  h2.hero-content {
     padding-top: 0;
     font-size: 22px;
   }
-  .headings {
+  .headings content {
     font-size: 20px;
-  }
-
-  h2.headings {
-    padding: 10px 0 !important;
-    margin: 0 !important;
   }
 
   p.projects {
     font-size: 16px;
-    padding: 0 !important;
   }
 
-  .button-links {
-  }
-
-  .home-intro {
-    padding-top: 10px !important;
-  }
   .content-heading {
     font-size: 40px;
     padding-top: 100px;
@@ -253,6 +263,43 @@ a.contact {
   .button-links {
     display: block;
     text-align: center;
+  }
+
+  h1.content-heading,
+  h2.content-heading,
+  p.content-heading {
+    padding-top: 0;
+  }
+
+  h1.content-heading,
+  .keywords,
+  h2.content-heading {
+    font-size: 27px;
+  }
+
+  p.content-heading {
+    font-size: 22px;
+  }
+
+  h4.content-heading {
+    font-size: 18px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  p.content {
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: center;
+  }
+
+  .certificates {
+    display: block;
+    margin: auto;
+  }
+
+  footer {
+    font-size: 13px;
   }
 
   .email-link {
