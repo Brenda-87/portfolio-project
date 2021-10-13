@@ -157,18 +157,87 @@ a.contact {
 }
 
 @media (max-width: 480px) {
-}
+  h1.hero-heading,
+  h2.hero-heading {
+    font-size: 22px;
+  }
 
-@media (max-width: 576px) {
-  h2.home-headings {
-    text-align: center;
-    font-size: 30px;
+  h1.hero-heading {
+    padding-top: 50px;
+  }
+  h2.hero-heading {
+    padding-top: 0px;
   }
 
   p.projects {
-    text-align: center;
+    text-align: left;
   }
 
+  .profile-photo {
+    max-width: 50%;
+  }
+
+  h1.content-heading,
+  h2.content-heading,
+  p.content-heading {
+    padding-top: 0;
+  }
+
+  h1.content-heading,
+  .keywords,
+  h2.content-heading {
+    font-size: 22px;
+  }
+
+  p.content-heading {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .certificates {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    min-height: 300px;
+  }
+
+  h1.hero-heading,
+  .keywords {
+    font-size: 22px;
+  }
+
+  h1.hero-heading {
+    padding-top: 50px;
+  }
+
+  h2.hero-heading {
+    padding-top: 0;
+    font-size: 22px;
+  }
+  .headings {
+    font-size: 20px;
+  }
+
+  h2.headings {
+    padding: 10px 0 !important;
+    margin: 0 !important;
+  }
+
+  p.projects {
+    font-size: 16px;
+    padding: 0 !important;
+  }
+
+  .button-links {
+  }
+
+  .home-intro {
+    padding-top: 10px !important;
+  }
   .content-heading {
     font-size: 40px;
     padding-top: 100px;
